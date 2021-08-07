@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/Linux_code.dir/main.cpp.o -o Linux_code 

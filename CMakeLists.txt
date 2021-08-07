@@ -3,4 +3,5 @@ project(Linux_code)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Linux_code main.cpp)
+#add_executable(Linux_code main.cpp)
+add_executable(sf safe.cpp)

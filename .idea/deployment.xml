@@ -2,24 +2,28 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="远程主机 (05913e37-24f3-4b2d-af8d-e0610c9e7e15)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/tmp.KElXQSmUfe" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="远程主机 (9f0c2865-f43d-4eaa-b0c3-479357cdc483)">
+      <paths name="centos (325fa8fc-66a8-45c1-b995-77debfc64ebc)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="远程主机 (cf27e207-e3c5-4e93-9a6b-df41cf9e620f)">
+      <paths name="centos (61ace3bf-2339-4392-a96b-94a4cb81bfd8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.93VxkBXYAA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="远程主机 (add14074-5bfe-4f1d-952b-fda2fcca08b4)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="远程主机 (c9e11df2-0527-4291-b292-449444f1eb55)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
