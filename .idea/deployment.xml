@@ -14,6 +14,9 @@
           <mappings>
             <mapping deploy="/tmp/tmp.93VxkBXYAA" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="远程主机 (add14074-5bfe-4f1d-952b-fda2fcca08b4)">

@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.o6CGpIr5P3
+CMAKE_SOURCE_DIR = /tmp/tmp.93VxkBXYAA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.o6CGpIr5P3/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.93VxkBXYAA/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.o6CGpIr5P3/cmake-build-debug/CMakeFiles /tmp/tmp.o6CGpIr5P3/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.93VxkBXYAA/cmake-build-debug/CMakeFiles /tmp/tmp.93VxkBXYAA/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.o6CGpIr5P3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.93VxkBXYAA/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named socket
+
+# Build rule for target.
+socket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket
+.PHONY : socket
+
+# fast build rule for target.
+socket/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/build
+.PHONY : socket/fast
+
+#=============================================================================
 # Target rules for targets named sf
 
 # Build rule for target.
@@ -141,6 +154,73 @@ sf: cmake_check_build_system
 sf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sf.dir/build.make CMakeFiles/sf.dir/build
 .PHONY : sf/fast
+
+#=============================================================================
+# Target rules for targets named c++
+
+# Build rule for target.
+c++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c++
+.PHONY : c++
+
+# fast build rule for target.
+c++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/build
+.PHONY : c++/fast
+
+client.o: client.cpp.o
+
+.PHONY : client.o
+
+# target to build an object file
+client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/client.cpp.o
+.PHONY : client.cpp.o
+
+client.i: client.cpp.i
+
+.PHONY : client.i
+
+# target to preprocess a source file
+client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/client.cpp.i
+.PHONY : client.cpp.i
+
+client.s: client.cpp.s
+
+.PHONY : client.s
+
+# target to generate assembly for a file
+client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/client.cpp.s
+.PHONY : client.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 safe.o: safe.cpp.o
 
@@ -169,6 +249,33 @@ safe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sf.dir/build.make CMakeFiles/sf.dir/safe.cpp.s
 .PHONY : safe.cpp.s
 
+service.o: service.cpp.o
+
+.PHONY : service.o
+
+# target to build an object file
+service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/service.cpp.o
+.PHONY : service.cpp.o
+
+service.i: service.cpp.i
+
+.PHONY : service.i
+
+# target to preprocess a source file
+service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/service.cpp.i
+.PHONY : service.cpp.i
+
+service.s: service.cpp.s
+
+.PHONY : service.s
+
+# target to generate assembly for a file
+service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/service.cpp.s
+.PHONY : service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -177,10 +284,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... c++"
 	@echo "... sf"
+	@echo "... socket"
+	@echo "... client.o"
+	@echo "... client.i"
+	@echo "... client.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... safe.o"
 	@echo "... safe.i"
 	@echo "... safe.s"
+	@echo "... service.o"
+	@echo "... service.i"
+	@echo "... service.s"
 .PHONY : help
 
 

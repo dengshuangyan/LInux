@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/socket.dir/service.cpp.o CMakeFiles/socket.dir/client.cpp.o -o socket   -L/usr/lib67  -Wl,-rpath,/usr/lib67 -lpthread 

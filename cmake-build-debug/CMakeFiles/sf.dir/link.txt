@@ -1,1 +1,1 @@
-/bin/g++ -g CMakeFiles/sf.dir/safe.cpp.o -o sf 
+/bin/g++ -g CMakeFiles/sf.dir/safe.cpp.o -o sf   -L/usr/lib67  -Wl,-rpath,/usr/lib67 -lpthread 

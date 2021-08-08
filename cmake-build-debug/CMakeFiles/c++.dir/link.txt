@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/c++.dir/main.cpp.o -o c++   -L/usr/lib67  -Wl,-rpath,/usr/lib67 -lpthread 
